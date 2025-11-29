@@ -11,9 +11,6 @@ $(call inherit-product, device/virt/virtio_x86_64/device.mk)
 
 DEVICE_PRODUCT_PATH := device/virt/virtio_x86_64_tv
 
-# AAPT
-PRODUCT_AAPT_PREF_CONFIG := tvdpi
-
 # Characteristics
 PRODUCT_CHARACTERISTICS := tv
 
